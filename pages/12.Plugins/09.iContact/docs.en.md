@@ -42,27 +42,8 @@ When you have your [APP][iContact-app] created, you should be able to see this s
 
 ## Configure the plugin
 
-1. Fill in the new credentials for [Mautic][mautic] - [iContact][iContact] integration:
+1. Follow [these-steps][field-mapping] to configure the plugin.
 
-   - APP ID = the Application ID you created
-   - APP username = the email you use to log into your [iContact][iContact] account. (Not the APP name)
-   - APP password = The password chosen when saving the [APP][iContact-app].
-
-    ![iContact - authoriztion](plugins-icontact-authorization.png "iContact - authorization")
-
-1. Navigate to the *Features* tab in the plugin configuration modal box.
-
-   1. Select the _iContact_ Segment where the Mautic Contacts should be pushed into.
-
-      There should be one Segment created by default.
-
-   1. In the _Features_ tab select *Push contacts to this integration* checkbox.
-
-    It is checked by default. If you uncheck it, the plugin will not push contacts to [iContact][iContact] any more.
-
-1. Configure the [field mapping][field-mapping].
-
-1. Save the plugin configuration.
 
 ## Test the plugin
 
